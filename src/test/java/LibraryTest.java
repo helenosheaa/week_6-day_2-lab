@@ -7,6 +7,7 @@ public class LibraryTest {
 
     private Library library;
     private Book book;
+    private Borrower borrower;
 
     @Before
     public void before(){
@@ -38,4 +39,13 @@ public class LibraryTest {
         library.addBook(book);
         assertEquals(3, library.getBookCount());
     }
+
+    @Test
+    public void canGetBook(){
+        library.addBook(book);
+        library.removeBook();
+        assertEquals(0, library.getBookCount());
+
+    }
+
 }

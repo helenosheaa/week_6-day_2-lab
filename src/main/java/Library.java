@@ -10,6 +10,10 @@ public class Library {
         this.capacity = 6;
     }
 
+    public Book removeBook() {
+        return this.books.remove(0);
+    }
+
 
     public int getBookCount() {
         return this.books.size();
