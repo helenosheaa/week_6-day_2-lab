@@ -9,7 +9,7 @@ public class BorrowTest {
     Book book;
 
     @Before
-    public void before(){
+    public void before() {
         borrower = new Borrower();
         library = new Library();
         book = new Book("The Jungle Book");
@@ -17,8 +17,8 @@ public class BorrowTest {
     }
 
     @Test
-    public void canBorrowBook(){
-        borrower.borrow(library, "The Jungle Book");
+    public void canBorrowBook() {
+        borrower.borrowBookFromLibrary(library);
         assertEquals(1, borrower.bookCount());
     }
 }

@@ -7,13 +7,11 @@ public class LibraryTest {
 
     private Library library;
     private Book book;
-    private Borrower borrower;
 
     @Before
     public void before(){
-        book = new Book();
-
         library = new Library();
+        book = new Book("The Jungle Book");
     }
 
     @Test
