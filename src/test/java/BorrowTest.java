@@ -12,7 +12,7 @@ public class BorrowTest {
     public void before() {
         borrower = new Borrower();
         library = new Library();
-        book = new Book("The Jungle Book");
+        book = new Book("The Jungle Book", GenreType.CHILDREN);
         library.addBook(book);
     }
 
