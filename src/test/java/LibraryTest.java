@@ -1,46 +1,41 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class LibraryTest {
 
-    private Library books;
+    private Library library;
+    private Book book;
 
     @Before
     public void before(){
-        ArrayList<String> testBooks = new ArrayList<>();
-        testBooks.add("book1");
-        testBooks.add("book2");
-        testBooks.add("book3");
-        testBooks.add("book4");
+        book = new Book();
 
-        books = new Library(testBooks);
+        library = new Library();
     }
 
     @Test
     public void hasNumberOfEntries(){
-        assertEquals(4, books.getBookCount());
+        assertEquals(0, library.getBookCount());
     }
 
     @Test
     public void canAddBook(){
-        books.addBook("book5");
-        assertEquals(5, books.getBookCount());
+        library.addBook(book);
+        assertEquals(1, library.getBookCount());
     }
 
     @Test
     public void hasCapacity(){
-        assertEquals(6, books.getCapacity());
+        assertEquals(6, library.getCapacity());
     }
 
     @Test
     public void unableToAddBook(){
-        books.addBook("Book5");
-        books.addBook("Book6");
-        books.addBook("Book7");
-        assertEquals(6, books.getBookCount());
+        library.addBook(book);
+        library.addBook(book);
+        library.addBook(book);
+        assertEquals(3, library.getBookCount());
     }
 }
