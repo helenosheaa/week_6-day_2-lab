@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c685365-ce91-4bed-acae-c6100db3dddd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,16 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
               </folding>
@@ -39,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="349">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
@@ -427,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.hasCapacity">
+  <component name="RunManager" selected="JUnit.LibraryTest.unableToAddBook">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -482,6 +479,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="LibraryTest.unableToAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BooksLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="unableToAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -524,9 +538,11 @@
       <item itemvalue="JUnit.LibraryTest.hasNumberOfEntries" />
       <item itemvalue="JUnit.LibraryTest.canAddBook" />
       <item itemvalue="JUnit.LibraryTest.hasCapacity" />
+      <item itemvalue="JUnit.LibraryTest.unableToAddBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.unableToAddBook" />
         <item itemvalue="JUnit.LibraryTest.hasCapacity" />
         <item itemvalue="JUnit.LibraryTest.canAddBook" />
         <item itemvalue="JUnit.LibraryTest.hasNumberOfEntries" />
@@ -556,6 +572,9 @@
     <history-entry file="LibraryTest_canAddBook - 2018.06.26 at 15h 15m 20s.xml">
       <configuration name="LibraryTest.canAddBook" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LibraryTest_hasCapacity - 2018.06.26 at 15h 20m 06s.xml">
+      <configuration name="LibraryTest.hasCapacity" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
@@ -567,11 +586,11 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.24328859" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33931035" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5184564" weight="0.33931035" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.7567114" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22483222" />
@@ -615,31 +634,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="349">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
             <element signature="e#752#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
           </folding>
         </state>
       </provider>

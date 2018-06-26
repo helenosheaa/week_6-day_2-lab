@@ -35,4 +35,12 @@ public class LibraryTest {
     public void hasCapacity(){
         assertEquals(6, books.getCapacity());
     }
+
+    @Test
+    public void unableToAddBook(){
+        books.addBook("Book5");
+        books.addBook("Book6");
+        books.addBook("Book7");
+        assertEquals(6, books.getBookCount());
+    }
 }
