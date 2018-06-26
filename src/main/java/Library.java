@@ -1,11 +1,13 @@
 import java.util.ArrayList;
 
 public class Library {
+    private int capacity;
 
     private ArrayList<String> books;
 
     public Library(ArrayList<String> books){
         this.books = books;
+        this.capacity = 6;
     }
 
 
@@ -15,5 +17,9 @@ public class Library {
 
     public void addBook(String book){
         this.books.add(book);
+    }
+
+    public int getCapacity() {
+        return this.capacity;
     }
 }
